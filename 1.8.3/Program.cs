@@ -13,7 +13,7 @@ else if (b>a &&  a > c)
 {
     Console.WriteLine(b.ToString() + a.ToString() + c.ToString());
 }
-else if (b>a && c > a && b>a)
+else if (b>c && c > a && b>a)
 {
     Console.WriteLine(b.ToString() + c.ToString() + a.ToString());
 }
